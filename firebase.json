@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "eazybite-in",
     "public": "build",
     "ignore": [
       "firebase.json",
