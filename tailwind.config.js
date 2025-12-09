@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'login-scr': "url('/src/assets/img/LoginScreenBg.jpg')",
+        'login-scr': "url('/src/assets/img/LoginScreenBg.svg')",
       },
       fontFamily: {
         'raleway': ['Raleway', 'sans-serif'],
