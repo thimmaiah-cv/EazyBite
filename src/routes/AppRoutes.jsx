@@ -3,6 +3,7 @@ import { AuthProvider } from "../context/AuthContext";
 import { Route, Routes } from "react-router-dom";
 import AdminLogin from "../pages/admin/AdminLogin";
 import ProtectedRoute from "../components/common/ProtectedRoute";
+import AdminDashboard from "../pages/admin/AdminDashboard";
 
 export default function AppRoutes() {
   return (
@@ -16,7 +17,7 @@ export default function AppRoutes() {
           path="/admin/dashboard"
           element={
             <ProtectedRoute>
-              <div>Admin Dashboard</div>
+              <AdminDashboard />
             </ProtectedRoute>
           }
         />
