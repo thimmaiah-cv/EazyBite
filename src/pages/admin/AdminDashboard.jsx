@@ -16,7 +16,7 @@ export default function AdminDashboard() {
                 onClick={logout}
                 className="px-3 py-1 rounded bg-red-600 hover:bg-red-700"
               >
-                Sign out
+                Sign Out
               </button>
             </div>
           </header>
