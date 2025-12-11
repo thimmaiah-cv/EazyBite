@@ -1,7 +1,7 @@
 import React from "react";
 import { useAuth } from "../../context/AuthContext";
 import Logo from "../../assets/img/Logo.svg";
-import { LogOut } from "lucide-react";
+import { LogOut, Plus } from "lucide-react";
 import UserAvatar from "../../components/admin/UserAvatar";
 
 export default function AdminDashboard() {
@@ -28,6 +28,34 @@ export default function AdminDashboard() {
           </button>
         </div>
       </header>
+
+      <div className="px-[5%]">
+        <div className="flex justify-between mt-6">
+          <h1 className="text-[#223239] font-raleway font-bold text-3xl">Restaurant Admin Dashboard</h1>
+          <button className="font-medium font-raleway rounded text-white flex items-center gap-1.5 px-3.5 py-1 bg-[#1F2932]">
+            <Plus size={20} color="white" />
+            Add Table
+          </button>
+        </div>
+
+        <div className="">
+          {/* Dashboard content goes here */}
+        </div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nobis
+        illo adipisci, ea perspiciatis inventore facere, consequatur illum,
+        placeat esse ipsum magnam? Dolorem hic quis tempora quos recusandae
+        molestiae maxime nobis minus cum numquam quia molestias animi at, unde
+        dolorum. Repudiandae velit rem possimus, sequi omnis eius, vitae dolorum
+        ipsa consectetur ut, magnam voluptatum doloribus numquam iure
+        repellendus nobis aspernatur qui eaque quas esse veniam quasi alias
+        praesentium? Deleniti, quis dolor voluptate, laboriosam molestias
+        veritatis veniam beatae quisquam consectetur ut minus minima, laborum
+        facere! Doloribus dolorum dignissimos enim temporibus, tenetur id
+        eveniet repudiandae tempore suscipit cupiditate voluptatum? Provident,
+        velit ratione!
+      </div>
+
+      {/*  */}
     </div>
   );
 }
