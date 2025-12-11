@@ -39,7 +39,7 @@ export default function AdminDashboard() {
         </div>
 
         <div className="">
-          {/* Dashboard content goes here */}
+          
         </div>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis nobis
         illo adipisci, ea perspiciatis inventore facere, consequatur illum,
