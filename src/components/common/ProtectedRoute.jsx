@@ -8,8 +8,8 @@ export default function ProtectedRoute({ children }) {
   if (initializing) {
     // or show a nice loader component
     return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-gray-400">Checking authentication...</div>
+      <div className="bg-[#F5F9F8] min-h-screen flex items-center justify-center">
+        <div className="text-[#223239 font-raleway font-semibold text-2xl">Checking authentication...</div>
       </div>
     );
   }
