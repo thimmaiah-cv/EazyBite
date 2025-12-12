@@ -68,6 +68,8 @@ export default function AdminLogin() {
           ? "Incorrect password."
           : err.code === "auth/invalid-email"
           ? "Invalid email address."
+          : err.code === "auth/invalid-credential"
+          ? "Invalid credentials."
           : "Login failed. Please try again.";
       setError(msg);
     } finally {
